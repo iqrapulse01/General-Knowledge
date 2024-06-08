@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Custom Quiz Application</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Image/logoquiz.png" alt="Quiz App Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="below">
+        <section class="intro">
+          <h1>Welcome to Your Quiz Journey!</h1>
+          <p>
+            Test your knowledge across various topics and track your progress.
+            Ready to start?
+          </p>
+         
+          <button id="startQuizButton" onclick="startQuiz()">Start Quiz</button>
+  
+  
+        </section>
+        <div class="result"></div>
+        <div class="result-message"></div>
+      </div>
+    </main>
+    <div class="timer">Time: 00:00</div>
+
+    <footer>
+      <p>© 2024 Custom Quiz Application. All rights reserved.</p>
+      <a href="#privacy">Privacy Policy</a> |
+      <a href="#terms">Terms of Service</a>
+    </footer>
+  </body>
+  <script src="script.js" ></script>
+</html>
